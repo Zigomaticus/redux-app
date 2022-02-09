@@ -1,10 +1,10 @@
 import { INPUT_TEXT } from "./types";
 
-const initialState = {
+const intialState = {
   text: "",
 };
 
-export const inputReducer = (state = initialState, action) => {
+export const inputReducer = (state = intialState, action) => {
   switch (action.type) {
     case INPUT_TEXT:
       return {

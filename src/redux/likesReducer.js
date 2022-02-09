@@ -1,10 +1,10 @@
 import { INCREMENT, DECREMENT } from "./types";
 
-const initialState = {
+const intialState = {
   likes: 0,
 };
 
-export const likesReducer = (state = initialState, action) => {
+export const likesReducer = (state = intialState, action) => {
   switch (action.type) {
     case INCREMENT:
       return {
