@@ -49,13 +49,7 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-.card-title-top {
-  display: flex;
-  align-items: center;
-}
-.card-title-top p {
-  margin: 0 5px;
-}
+
 button {
   border: 2px solid #f2f2f2;
   background: none;

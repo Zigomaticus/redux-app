@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-
 import { commentUpdate, commentDelete } from "./redux/actions";
 
 function SingleComment({ data }) {
